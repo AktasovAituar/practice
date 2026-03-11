@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты | Актасов Айтуар</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Привет! Я Актасов Айтуар</h1>
+            <p class="lead">Студент из Павлодара • Изучаю веб-разработку и хочу создавать удобные сайты</p>
+            <img src="ava.png" alt="Актасов Айтуар" class="avatar">
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html">Главная</a>
+            <a href="about.html">О себе</a>
+            <a href="projects.html" class="active">Проекты</a>
+            <a href="contact.html">Контакты</a>
+            <button id="theme-toggle" aria-label="Сменить тему">🌙</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="projects">
+            <h2>Мои проекты</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Телеграм-бот фитнес-тренера с ИИ</h3>
+                    <p>Бот для тренировок с элементами искусственного интеллекта (проект заброшен).</p>
+                    <p><strong>Технологии:</strong> Python, Telegram API</p>
+                </div>
+                <div class="project-card">
+                    <h3>Генератор курсов с ИИ</h3>
+                    <p>Сервис автоматической генерации учебных курсов (не окончен).</p>
+                    <p><strong>Технологии:</strong> Python, OpenAI API</p>
+                </div>
+                <div class="project-card">
+                    <h3>Простые игры: Змейка и Сапёр</h3>
+                    <p>Классические игры на JavaScript (шаблонные проекты).</p>
+                    <p><strong>Технологии:</strong> HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Актасов Айтуар</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
