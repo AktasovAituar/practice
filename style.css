@@ -34,6 +34,12 @@ header {
     border: 5px solid white;
     margin-top: 20px;
     object-fit: cover;
+    animation: pulse 1.5s infinite ease-in-out;
+}
+@keyframes pulse{
+0%{transform:scale(1);}
+50%{transform:scale(1.1);}
+100%{transform: scale(1);}
 }
 .navbar {
     background: var(--card);
